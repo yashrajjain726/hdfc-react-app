@@ -2,42 +2,49 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-
+import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
-  root: {
-    maxWidth: 200,
-    margin:'20px',
+//   root: {
+//     maxWidth: 200,
+//   },
+  media: {
+      alignItems:'center',
+    height: 100,
+    width:100
   },
 });
 
-function CardPanel(props) {
+export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card >
       <CardActionArea>
+        <center>
         <CardMedia
-          component="img"
-          src={props.img}
-          alt={props.name}
+          className={classes.media}
+          image={props.image}
+          title={props.name}
+          
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+        <Typography >
             {props.name}
           </Typography>
-        </CardContent>
-       <div className="discountButton">
-       <Button size="medium" color="" >
-          {props.discount}
+        </center>
+        <CardContent>  
+          <Button size="small" color="#56a832" style={{backgroundColor:"#56a832"}}>
+          {props.offers}
         </Button>
-       </div>
+        </CardContent>
       </CardActionArea>
     </Card>
+
   );
 }
-export default CardPanel;
+
+

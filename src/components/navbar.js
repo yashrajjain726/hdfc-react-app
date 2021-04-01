@@ -7,7 +7,6 @@ import Typography from '@material-ui/core/Typography';
 import Badge from '@material-ui/core/Badge';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
-import hdfc from '../img/hdfc.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -21,8 +20,8 @@ export default function PrimarySearchAppBar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
-        <Toolbar>
+      <AppBar position="static" >
+        <Toolbar style={{marginLeft:'3%',marginRight:'3%'}}>
           <IconButton
             edge="start"
             className={classes.menuButton}
@@ -32,7 +31,7 @@ export default function PrimarySearchAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography  variant="h6" noWrap>
-           Hdfc Bank
+            hdfc 
           </Typography>
           <div >
             <div >
@@ -55,3 +54,4 @@ export default function PrimarySearchAppBar() {
     </div>
   );
 }
+
