@@ -21,7 +21,7 @@ export default function PrimarySearchAppBar() {
   return (
     <div className={classes.grow}>
       <AppBar position="static" >
-        <Toolbar style={{marginLeft:'3%',marginRight:'3%'}}>
+        <Toolbar style={{marginLeft:'2%',marginRight:'2%'}}>
           <IconButton
             edge="start"
             className={classes.menuButton}
@@ -30,9 +30,10 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography  variant="h6" noWrap>
+          <Typography  variant="h6" noWrap style={{marginRight:'10px'}}>
             hdfc 
           </Typography>
+
           <div >
             <div >
             <Typography  variant="h6" noWrap>
