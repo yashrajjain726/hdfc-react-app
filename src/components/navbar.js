@@ -21,7 +21,7 @@ export default function PrimarySearchAppBar() {
   return (
     <div className={classes.grow}>
       <AppBar position="static" >
-        <Toolbar style={{marginLeft:'2%',marginRight:'2%'}}>
+        <Toolbar style={{marginLeft:'4%',marginRight:'4%'}}>
           <IconButton
             edge="start"
             className={classes.menuButton}

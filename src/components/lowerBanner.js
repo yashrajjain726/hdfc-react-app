@@ -7,7 +7,7 @@ class LowerBanner extends Component {
     state = {  }
     render() { 
         return ( 
-            <div style={{margin:'2%'}}>
+            <div style={{margin:'4%'}}>
                 <img src={lowerBanner} style={{width:'100%'}}></img>
         <div style={{paddingTop:25}}>
           <OfferCard/>

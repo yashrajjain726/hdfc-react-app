@@ -7,8 +7,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 const useStyles = makeStyles({
   root: {
-   
-  },
+  }
 });
 
 export default function SimpleBottomNavigation() {

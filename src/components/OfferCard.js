@@ -53,7 +53,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#FFCF40',width:'100%',color:'#FDFEFE'}}>
-          Share Now
+          Share
         </Button>
       </CardActionArea>
     </Card>
@@ -69,7 +69,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#DAF7A6',width:'100%',color:'#FDFEFE'}}>
-          Earn Rewards
+          Earn
         </Button>
       </CardActionArea>
     </Card>
@@ -85,7 +85,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#DFFF00',width:'100%',color:'#FDFEFE'}}>
-           Branded Products
+           Products
         </Button>
       </CardActionArea>
     </Card>
@@ -101,7 +101,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#40E0D0',width:'100%',color:'#FDFEFE'}}>
-          Sale on Brnads
+          Sale
         </Button>
       </CardActionArea>
     </Card>
@@ -117,7 +117,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#6495ED',width:'100%',color:'#FDFEFE'}}>
-          Compare Products
+        Products
         </Button>
       </CardActionArea>
     </Card>
@@ -133,7 +133,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#00FF00',width:'100%',color:'#FDFEFE'}}>
-          Republic Sale
+          Republic
         </Button>
       </CardActionArea>
     </Card>
@@ -149,7 +149,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#008080',width:'100%',color:'#FDFEFE'}}>
-          10% HFDC Discount 
+          Discount 
         </Button>
       </CardActionArea>
     </Card>
@@ -165,7 +165,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#FFCF40',width:'100%',color:'#FDFEFE'}}>
-          Sale on Footwear
+          Sale
         </Button>
       </CardActionArea>
     </Card>
@@ -181,7 +181,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#DE3163',width:'100%',color:'#FDFEFE'}}>
-          57% Off Clothing
+          57% Off
         </Button>
       </CardActionArea>
     </Card>
@@ -197,7 +197,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#76448A',width:'100%',color:'#FDFEFE'}}>
-        Sale is Coming
+        Sale
         </Button>
       </CardActionArea>
     </Card>
@@ -213,7 +213,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#76448A ',width:'100%',color:'#FDFEFE'}}>
-          90% Off on Brands 
+          90% Off
         </Button>
       </CardActionArea>
     </Card>
@@ -229,7 +229,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#34495E',width:'100%',color:'#FDFEFE'}}>
-          Black Friday Sale
+        Sale
         </Button>
       </CardActionArea>
     </Card>
@@ -245,7 +245,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#FFCF40',width:'100%',color:'#FDFEFE'}}>
-          50% Flat Discount
+          50% Flat
         </Button>
       </CardActionArea>
     </Card>
