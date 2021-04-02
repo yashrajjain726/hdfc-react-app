@@ -5,13 +5,9 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import RestoreIcon from '@material-ui/icons/Restore';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 
-const useStyles = makeStyles({
-  root: {
-  }
-});
 
 export default function SimpleBottomNavigation() {
-  const classes = useStyles();
+
   const [value, setValue] = React.useState(0);
 
   return (
@@ -21,7 +17,7 @@ export default function SimpleBottomNavigation() {
         setValue(newValue);
       }}
       showLabels
-      className={classes.root}
+      className="bottomNavigation"
     >
       <BottomNavigationAction label="Home" icon={<RestoreIcon />} />
       <BottomNavigationAction label="Guest Orders" icon={<LocationOnIcon />} />

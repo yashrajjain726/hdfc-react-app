@@ -3,7 +3,6 @@ import NavBar from './navbar'
 import HeroSection from './heroSection'
 import LowerBanner from './lowerBanner'
 import BottomNavigationComponent from './bottomNavigationComponent'
-import OfferCard from './OfferCard'
 
 export default function FullWidthGrid() {
   return (
@@ -11,7 +10,7 @@ export default function FullWidthGrid() {
           <NavBar/>
         <HeroSection/>
         <LowerBanner/>
-        {/* <BottomNavigationComponent/> */}
+        <BottomNavigationComponent/>
         </React.Fragment>
   );
 }

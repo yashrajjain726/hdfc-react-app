@@ -6,7 +6,7 @@ class HeroSection extends Component {
         return ( 
        
                             <div className="heroSection">
-              <img src={heroBanner}style={{width:'100%'}} ></img>
+              <img src={heroBanner}style={{width:'100%'}} alt="" ></img>
               <hr style={{margin:0,color:'#000000',padding:'10px',backgroundColor:'#000000'}}></hr>
             </div>
          );

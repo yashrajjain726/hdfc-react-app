@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import lowerBanner from '../img/lowerBanner.jpg'
-import Grid from '@material-ui/core/Grid';
 import OfferCard from './OfferCard'
 
 class LowerBanner extends Component {
@@ -8,7 +7,7 @@ class LowerBanner extends Component {
     render() { 
         return ( 
             <div style={{margin:'4%'}}>
-                <img src={lowerBanner} style={{width:'100%'}}></img>
+                <img src={lowerBanner} style={{width:'100%'}} alt=""></img>
         <div style={{paddingTop:25}}>
           <OfferCard/>
     </div>    
