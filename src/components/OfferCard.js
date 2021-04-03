@@ -15,16 +15,10 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    margin:'4%'
 
   },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
-  cardsize :{
-     
-  },
+
   img: {
     margin: 'auto',
     display: 'block',
@@ -40,8 +34,8 @@ export default function AutoGrid() {
     <div className={classes.root}>
     <Grid container spacing={1} >
       <Grid item xs={3} md={2} lg={2}className={classes.cardsize}>
-      <Card className={classes.root}>
-      <CardActionArea>
+        <Card className={classes.root}>
+        <CardActionArea>
 
         <CardContent>
         <img className={classes.img} src={amazon}/>
@@ -49,11 +43,11 @@ export default function AutoGrid() {
             Amazon
           </Typography>
         </CardContent>
-        <Button size="small" color="" style={{backgroundColor:'#FFCF40',width:'100%',color:'#FDFEFE'}} className="CardButton">
+        <Button size="small" color="" style={{backgroundColor:'#FFCF40',width:'100%',color:'#FDFEFE'}} className="cardButton">
           Share
         </Button>
-      </CardActionArea>
-    </Card>
+        </CardActionArea>
+        </Card>
       </Grid>
       <Grid item xs={3} md={2} lg={2}>
       <Card className={classes.root}>
@@ -82,7 +76,7 @@ export default function AutoGrid() {
           </Typography>
         </CardContent>
         <Button size="small" color="" style={{backgroundColor:'#DFFF00',width:'100%',color:'#FDFEFE'}}>
-           Products
+           Product
         </Button>
       </CardActionArea>
     </Card>
