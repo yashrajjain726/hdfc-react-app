@@ -7,6 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Badge from '@material-ui/core/Badge';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
+import BrandLogo from '../img/brandLogo.png'
+import SubBrandLogo from '../img/subBrandLogo.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,18 +32,9 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography  variant="h6" noWrap style={{marginRight:'10px'}}>
-            hdfc 
-          </Typography>
-
-          <div >
-            <div >
-            <Typography  variant="h6" noWrap>
-           Smart Bank
-          </Typography>
-            </div>
-           
-          </div>
+            
+          <img src={BrandLogo} style={{width:'15%',marginLeft:'1%'}}></img>
+          {/* <img src={SubBrandLogo} style={{width:'10%',marginLeft:'1%'}}></img>   */}
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton color="inherit">
